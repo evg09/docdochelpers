@@ -1,12 +1,12 @@
 <?php
 
-namespace Leyhmann\DocDoc\Helpers\Builders;
+namespace Evg09\DocDoc\Helpers\Builders;
 
 use DateTime;
 
 /**
  * Class ClinicsQueryBuilder
- * @package Leyhmann\DocDoc\Helpers\Builders
+ * @package Evg09\DocDoc\Helpers\Builders
  */
 class ClinicsQueryBuilder extends QueryBuilder
 {

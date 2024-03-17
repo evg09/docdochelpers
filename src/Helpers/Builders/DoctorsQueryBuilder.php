@@ -1,6 +1,6 @@
 <?php
 
-namespace Leyhmann\DocDoc\Helpers\Builders;
+namespace Evg09\DocDoc\Helpers\Builders;
 
 use DateTime;
 
@@ -8,7 +8,7 @@ use DateTime;
  * Helper for query doctor
  *
  * Class DoctorsQueryBuilder
- * @package Leyhmann\DocDoc\Helpers
+ * @package Evg09\DocDoc\Helpers
  */
 class DoctorsQueryBuilder extends QueryBuilder
 {

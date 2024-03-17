@@ -1,21 +1,21 @@
 <?php
 
 
-namespace Leyhmann\DocDoc\Services;
+namespace Evg09\DocDoc\Services;
 
-use Leyhmann\DocDoc\Exceptions\InvalidArgument;
-use Leyhmann\DocDoc\Exceptions\MethodIsNotSet;
-use Leyhmann\DocDoc\Exceptions\ResponseError;
-use Leyhmann\DocDoc\Exceptions\Unauthorized;
-use Leyhmann\DocDoc\Helpers\Headers;
-use Leyhmann\DocDoc\Interfaces\Helpers\QueryBuilderInterface;
-use Leyhmann\DocDoc\Interfaces\Services\ServicesServiceInterface;
+use Evg09\DocDoc\Exceptions\InvalidArgument;
+use Evg09\DocDoc\Exceptions\MethodIsNotSet;
+use Evg09\DocDoc\Exceptions\ResponseError;
+use Evg09\DocDoc\Exceptions\Unauthorized;
+use Evg09\DocDoc\Helpers\Headers;
+use Evg09\DocDoc\Interfaces\Helpers\QueryBuilderInterface;
+use Evg09\DocDoc\Interfaces\Services\ServicesServiceInterface;
 use function json_decode;
 use function json_encode;
 
 /**
  * Class ServicesService
- * @package Leyhmann\DocDoc\Services
+ * @package Evg09\DocDoc\Services
  */
 class ServicesService extends AbstractService implements ServicesServiceInterface
 {

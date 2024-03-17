@@ -1,14 +1,14 @@
 <?php
 
 
-namespace Leyhmann\DocDoc\Services;
+namespace Evg09\DocDoc\Services;
 
-use Leyhmann\DocDoc\Exceptions\ResponseError;
-use Leyhmann\DocDoc\Interfaces\Services\MetroServiceInterface;
+use Evg09\DocDoc\Exceptions\ResponseError;
+use Evg09\DocDoc\Interfaces\Services\MetroServiceInterface;
 
 /**
  * Class MetroService
- * @package Leyhmann\DocDoc\Services
+ * @package Evg09\DocDoc\Services
  */
 class MetroService extends AbstractService implements MetroServiceInterface
 {
@@ -17,8 +17,8 @@ class MetroService extends AbstractService implements MetroServiceInterface
      *
      * @inheritDoc
      * @throws ResponseError
-     * @throws \Leyhmann\DocDoc\Exceptions\MethodIsNotSet
-     * @throws \Leyhmann\DocDoc\Exceptions\Unauthorized
+     * @throws \Evg09\DocDoc\Exceptions\MethodIsNotSet
+     * @throws \Evg09\DocDoc\Exceptions\Unauthorized
      */
     public function nearestStationGeo(float $lat, float $lng, int $city = null): array
     {
@@ -34,8 +34,8 @@ class MetroService extends AbstractService implements MetroServiceInterface
      *
      * @inheritDoc
      * @throws ResponseError
-     * @throws \Leyhmann\DocDoc\Exceptions\MethodIsNotSet
-     * @throws \Leyhmann\DocDoc\Exceptions\Unauthorized
+     * @throws \Evg09\DocDoc\Exceptions\MethodIsNotSet
+     * @throws \Evg09\DocDoc\Exceptions\Unauthorized
      */
     public function nearestStation(int $stationID): array
     {
@@ -47,8 +47,8 @@ class MetroService extends AbstractService implements MetroServiceInterface
      *
      * @inheritDoc
      * @throws ResponseError
-     * @throws \Leyhmann\DocDoc\Exceptions\MethodIsNotSet
-     * @throws \Leyhmann\DocDoc\Exceptions\Unauthorized
+     * @throws \Evg09\DocDoc\Exceptions\MethodIsNotSet
+     * @throws \Evg09\DocDoc\Exceptions\Unauthorized
      */
     public function getMetro(int $cityID): array
     {

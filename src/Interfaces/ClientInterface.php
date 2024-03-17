@@ -1,15 +1,15 @@
 <?php
 
-namespace Leyhmann\DocDoc\Interfaces;
+namespace Evg09\DocDoc\Interfaces;
 
-use Leyhmann\DocDoc\Exceptions\MethodIsNotSet;
-use Leyhmann\DocDoc\Exceptions\Unauthorized;
-use Leyhmann\DocDoc\Helpers\Headers;
+use Evg09\DocDoc\Exceptions\MethodIsNotSet;
+use Evg09\DocDoc\Exceptions\Unauthorized;
+use Evg09\DocDoc\Helpers\Headers;
 use Psr\Http\Message\ResponseInterface;
 
 /**
  * Interface ClientInterface
- * @package Leyhmann\DocDoc\Interfaces
+ * @package Evg09\DocDoc\Interfaces
  */
 interface ClientInterface
 {

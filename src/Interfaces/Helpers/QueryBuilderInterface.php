@@ -1,13 +1,13 @@
 <?php
 
 
-namespace Leyhmann\DocDoc\Interfaces\Helpers;
+namespace Evg09\DocDoc\Interfaces\Helpers;
 
-use Leyhmann\DocDoc\Exceptions\RequiredFieldIsNotSet;
+use Evg09\DocDoc\Exceptions\RequiredFieldIsNotSet;
 
 /**
  * Interface QueryBuilderInterface
- * @package Leyhmann\DocDoc\Interfaces\Helpers
+ * @package Evg09\DocDoc\Interfaces\Helpers
  */
 interface QueryBuilderInterface
 {

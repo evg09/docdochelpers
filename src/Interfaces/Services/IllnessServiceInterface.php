@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Leyhmann\DocDoc\Interfaces\Services;
+namespace Evg09\DocDoc\Interfaces\Services;
 
 /**
  * Interface IllnessServiceInterface
- * @package Leyhmann\DocDoc\Interfaces\Services
+ * @package Evg09\DocDoc\Interfaces\Services
  */
 interface IllnessServiceInterface
 {

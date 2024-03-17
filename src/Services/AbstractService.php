@@ -1,13 +1,13 @@
 <?php
 
-namespace Leyhmann\DocDoc\Services;
+namespace Evg09\DocDoc\Services;
 
-use Leyhmann\DocDoc\Exceptions\ResponseError;
-use Leyhmann\DocDoc\Interfaces\ClientInterface;
+use Evg09\DocDoc\Exceptions\ResponseError;
+use Evg09\DocDoc\Interfaces\ClientInterface;
 
 /**
  * Class AbstractService
- * @package Leyhmann\DocDoc\Services
+ * @package Evg09\DocDoc\Services
  */
 abstract class AbstractService
 {
@@ -30,8 +30,8 @@ abstract class AbstractService
      * @param string $key
      * @return array
      * @throws ResponseError
-     * @throws \Leyhmann\DocDoc\Exceptions\MethodIsNotSet
-     * @throws \Leyhmann\DocDoc\Exceptions\Unauthorized
+     * @throws \Evg09\DocDoc\Exceptions\MethodIsNotSet
+     * @throws \Evg09\DocDoc\Exceptions\Unauthorized
      */
     protected function getOnly(string $query, string $key): array
     {
@@ -43,8 +43,8 @@ abstract class AbstractService
      * @param string $key
      * @return array
      * @throws ResponseError
-     * @throws \Leyhmann\DocDoc\Exceptions\MethodIsNotSet
-     * @throws \Leyhmann\DocDoc\Exceptions\Unauthorized
+     * @throws \Evg09\DocDoc\Exceptions\MethodIsNotSet
+     * @throws \Evg09\DocDoc\Exceptions\Unauthorized
      */
     protected function get(string $query, string $key): array
     {
@@ -61,8 +61,8 @@ abstract class AbstractService
      * @param string $key
      * @return array
      * @throws ResponseError
-     * @throws \Leyhmann\DocDoc\Exceptions\MethodIsNotSet
-     * @throws \Leyhmann\DocDoc\Exceptions\Unauthorized
+     * @throws \Evg09\DocDoc\Exceptions\MethodIsNotSet
+     * @throws \Evg09\DocDoc\Exceptions\Unauthorized
      */
     protected function getFirst(string $query, string $key): array
     {

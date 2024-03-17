@@ -1,11 +1,11 @@
 <?php
 
-namespace Leyhmann\DocDoc\Tests\Services;
+namespace Evg09\DocDoc\Tests\Services;
 
-use Leyhmann\DocDoc\Exceptions\MaximumCount;
-use Leyhmann\DocDoc\Helpers\Builders\DoctorsQueryBuilder;
-use Leyhmann\DocDoc\Services\DoctorsService;
-use Leyhmann\DocDoc\Services\ServicesService;
+use Evg09\DocDoc\Exceptions\MaximumCount;
+use Evg09\DocDoc\Helpers\Builders\DoctorsQueryBuilder;
+use Evg09\DocDoc\Services\DoctorsService;
+use Evg09\DocDoc\Services\ServicesService;
 
 class DoctorsServiceTest extends AbstractServiceTest
 {
@@ -20,11 +20,11 @@ class DoctorsServiceTest extends AbstractServiceTest
     protected $specialities;
 
     /**
-     * @throws \Leyhmann\DocDoc\Exceptions\CityNumberIncorrect
-     * @throws \Leyhmann\DocDoc\Exceptions\MaximumCount
-     * @throws \Leyhmann\DocDoc\Exceptions\MethodIsNotSet
-     * @throws \Leyhmann\DocDoc\Exceptions\ResponseError
-     * @throws \Leyhmann\DocDoc\Exceptions\Unauthorized
+     * @throws \Evg09\DocDoc\Exceptions\CityNumberIncorrect
+     * @throws \Evg09\DocDoc\Exceptions\MaximumCount
+     * @throws \Evg09\DocDoc\Exceptions\MethodIsNotSet
+     * @throws \Evg09\DocDoc\Exceptions\ResponseError
+     * @throws \Evg09\DocDoc\Exceptions\Unauthorized
      */
     public function testAllMaxCount(): void
     {
@@ -35,10 +35,10 @@ class DoctorsServiceTest extends AbstractServiceTest
 
     /**
      * @throws MaximumCount
-     * @throws \Leyhmann\DocDoc\Exceptions\CityNumberIncorrect
-     * @throws \Leyhmann\DocDoc\Exceptions\MethodIsNotSet
-     * @throws \Leyhmann\DocDoc\Exceptions\ResponseError
-     * @throws \Leyhmann\DocDoc\Exceptions\Unauthorized
+     * @throws \Evg09\DocDoc\Exceptions\CityNumberIncorrect
+     * @throws \Evg09\DocDoc\Exceptions\MethodIsNotSet
+     * @throws \Evg09\DocDoc\Exceptions\ResponseError
+     * @throws \Evg09\DocDoc\Exceptions\Unauthorized
      */
     public function testAll(): void
     {
@@ -51,10 +51,10 @@ class DoctorsServiceTest extends AbstractServiceTest
     }
 
     /**
-     * @throws \Leyhmann\DocDoc\Exceptions\MethodIsNotSet
-     * @throws \Leyhmann\DocDoc\Exceptions\RequiredFieldIsNotSet
-     * @throws \Leyhmann\DocDoc\Exceptions\ResponseError
-     * @throws \Leyhmann\DocDoc\Exceptions\Unauthorized
+     * @throws \Evg09\DocDoc\Exceptions\MethodIsNotSet
+     * @throws \Evg09\DocDoc\Exceptions\RequiredFieldIsNotSet
+     * @throws \Evg09\DocDoc\Exceptions\ResponseError
+     * @throws \Evg09\DocDoc\Exceptions\Unauthorized
      */
     public function testGetDoctors(): void
     {
@@ -100,10 +100,10 @@ class DoctorsServiceTest extends AbstractServiceTest
 
     /**
      * @throws MaximumCount
-     * @throws \Leyhmann\DocDoc\Exceptions\CityNumberIncorrect
-     * @throws \Leyhmann\DocDoc\Exceptions\MethodIsNotSet
-     * @throws \Leyhmann\DocDoc\Exceptions\ResponseError
-     * @throws \Leyhmann\DocDoc\Exceptions\Unauthorized
+     * @throws \Evg09\DocDoc\Exceptions\CityNumberIncorrect
+     * @throws \Evg09\DocDoc\Exceptions\MethodIsNotSet
+     * @throws \Evg09\DocDoc\Exceptions\ResponseError
+     * @throws \Evg09\DocDoc\Exceptions\Unauthorized
      */
     public function testFind(): void
     {
@@ -115,10 +115,10 @@ class DoctorsServiceTest extends AbstractServiceTest
 
     /**
      * @throws MaximumCount
-     * @throws \Leyhmann\DocDoc\Exceptions\CityNumberIncorrect
-     * @throws \Leyhmann\DocDoc\Exceptions\MethodIsNotSet
-     * @throws \Leyhmann\DocDoc\Exceptions\ResponseError
-     * @throws \Leyhmann\DocDoc\Exceptions\Unauthorized
+     * @throws \Evg09\DocDoc\Exceptions\CityNumberIncorrect
+     * @throws \Evg09\DocDoc\Exceptions\MethodIsNotSet
+     * @throws \Evg09\DocDoc\Exceptions\ResponseError
+     * @throws \Evg09\DocDoc\Exceptions\Unauthorized
      */
     public function testFindByAlias(): void
     {
@@ -130,10 +130,10 @@ class DoctorsServiceTest extends AbstractServiceTest
 
     /**
      * @throws MaximumCount
-     * @throws \Leyhmann\DocDoc\Exceptions\CityNumberIncorrect
-     * @throws \Leyhmann\DocDoc\Exceptions\MethodIsNotSet
-     * @throws \Leyhmann\DocDoc\Exceptions\ResponseError
-     * @throws \Leyhmann\DocDoc\Exceptions\Unauthorized
+     * @throws \Evg09\DocDoc\Exceptions\CityNumberIncorrect
+     * @throws \Evg09\DocDoc\Exceptions\MethodIsNotSet
+     * @throws \Evg09\DocDoc\Exceptions\ResponseError
+     * @throws \Evg09\DocDoc\Exceptions\Unauthorized
      */
     public function testGetReview(): void
     {
@@ -168,10 +168,10 @@ class DoctorsServiceTest extends AbstractServiceTest
     /**
      * @return array
      * @throws MaximumCount
-     * @throws \Leyhmann\DocDoc\Exceptions\CityNumberIncorrect
-     * @throws \Leyhmann\DocDoc\Exceptions\MethodIsNotSet
-     * @throws \Leyhmann\DocDoc\Exceptions\ResponseError
-     * @throws \Leyhmann\DocDoc\Exceptions\Unauthorized
+     * @throws \Evg09\DocDoc\Exceptions\CityNumberIncorrect
+     * @throws \Evg09\DocDoc\Exceptions\MethodIsNotSet
+     * @throws \Evg09\DocDoc\Exceptions\ResponseError
+     * @throws \Evg09\DocDoc\Exceptions\Unauthorized
      */
     protected function getDefaultDoctor(): array
     {
@@ -184,9 +184,9 @@ class DoctorsServiceTest extends AbstractServiceTest
 
     /**
      * @return array
-     * @throws \Leyhmann\DocDoc\Exceptions\MethodIsNotSet
-     * @throws \Leyhmann\DocDoc\Exceptions\ResponseError
-     * @throws \Leyhmann\DocDoc\Exceptions\Unauthorized
+     * @throws \Evg09\DocDoc\Exceptions\MethodIsNotSet
+     * @throws \Evg09\DocDoc\Exceptions\ResponseError
+     * @throws \Evg09\DocDoc\Exceptions\Unauthorized
      */
     protected function getSpecialitiesList(): array
     {

@@ -1,21 +1,21 @@
 <?php
 
-namespace Leyhmann\DocDoc;
+namespace Evg09\DocDoc;
 
 use Buzz\Browser;
 use Buzz\Client\Curl;
 use Buzz\Middleware\BasicAuthMiddleware;
-use Leyhmann\DocDoc\Helpers\Headers;
-use Leyhmann\DocDoc\Interfaces\ClientInterface;
+use Evg09\DocDoc\Helpers\Headers;
+use Evg09\DocDoc\Interfaces\ClientInterface;
 use Nyholm\Psr7\Factory\Psr17Factory;
-use Leyhmann\DocDoc\Exceptions\MethodIsNotSet;
-use Leyhmann\DocDoc\Exceptions\Unauthorized;
+use Evg09\DocDoc\Exceptions\MethodIsNotSet;
+use Evg09\DocDoc\Exceptions\Unauthorized;
 use Psr\Http\Message\ResponseInterface;
 use function json_decode;
 
 /**
  * Class Client
- * @package Leyhmann\DocDoc
+ * @package Evg09\DocDoc
  */
 class Client implements ClientInterface
 {

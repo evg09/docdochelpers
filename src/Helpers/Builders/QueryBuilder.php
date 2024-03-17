@@ -1,10 +1,10 @@
 <?php
 
-namespace Leyhmann\DocDoc\Helpers\Builders;
+namespace Evg09\DocDoc\Helpers\Builders;
 
 use DateTime;
-use Leyhmann\DocDoc\Exceptions\RequiredFieldIsNotSet;
-use Leyhmann\DocDoc\Interfaces\Helpers\QueryBuilderInterface;
+use Evg09\DocDoc\Exceptions\RequiredFieldIsNotSet;
+use Evg09\DocDoc\Interfaces\Helpers\QueryBuilderInterface;
 use function http_build_query;
 use function implode;
 use function in_array;
@@ -14,7 +14,7 @@ use function is_array;
  * Query helper for long api
  *
  * Class QueryBuilder
- * @package Leyhmann\DocDoc\Helpers
+ * @package Evg09\DocDoc\Helpers
  */
 abstract class QueryBuilder implements QueryBuilderInterface
 {

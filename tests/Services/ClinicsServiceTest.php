@@ -1,18 +1,18 @@
 <?php
 
-namespace Leyhmann\DocDoc\Tests\Services;
+namespace Evg09\DocDoc\Tests\Services;
 
 use DateTime;
-use Leyhmann\DocDoc\Exceptions\CityNumberIncorrect;
-use Leyhmann\DocDoc\Exceptions\InvalidArgument;
-use Leyhmann\DocDoc\Exceptions\MaximumCount;
-use Leyhmann\DocDoc\Exceptions\MethodIsNotSet;
-use Leyhmann\DocDoc\Exceptions\RequiredFieldIsNotSet;
-use Leyhmann\DocDoc\Exceptions\ResponseError;
-use Leyhmann\DocDoc\Exceptions\Unauthorized;
-use Leyhmann\DocDoc\Helpers\Builders\ClinicsQueryBuilder;
-use Leyhmann\DocDoc\Services\ClinicsService;
-use Leyhmann\DocDoc\Services\DoctorsService;
+use Evg09\DocDoc\Exceptions\CityNumberIncorrect;
+use Evg09\DocDoc\Exceptions\InvalidArgument;
+use Evg09\DocDoc\Exceptions\MaximumCount;
+use Evg09\DocDoc\Exceptions\MethodIsNotSet;
+use Evg09\DocDoc\Exceptions\RequiredFieldIsNotSet;
+use Evg09\DocDoc\Exceptions\ResponseError;
+use Evg09\DocDoc\Exceptions\Unauthorized;
+use Evg09\DocDoc\Helpers\Builders\ClinicsQueryBuilder;
+use Evg09\DocDoc\Services\ClinicsService;
+use Evg09\DocDoc\Services\DoctorsService;
 use function count;
 
 class ClinicsServiceTest extends AbstractServiceTest

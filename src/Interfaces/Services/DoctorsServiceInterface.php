@@ -1,13 +1,13 @@
 <?php
 
 
-namespace Leyhmann\DocDoc\Interfaces\Services;
+namespace Evg09\DocDoc\Interfaces\Services;
 
-use Leyhmann\DocDoc\Interfaces\Helpers\QueryBuilderInterface;
+use Evg09\DocDoc\Interfaces\Helpers\QueryBuilderInterface;
 
 /**
  * Interface DoctorsServiceInterface
- * @package Leyhmann\DocDoc\Interfaces\Services
+ * @package Evg09\DocDoc\Interfaces\Services
  */
 interface DoctorsServiceInterface
 {

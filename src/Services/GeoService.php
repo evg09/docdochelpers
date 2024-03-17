@@ -1,14 +1,14 @@
 <?php
 
 
-namespace Leyhmann\DocDoc\Services;
+namespace Evg09\DocDoc\Services;
 
-use Leyhmann\DocDoc\Exceptions\ResponseError;
-use Leyhmann\DocDoc\Interfaces\Services\GeoServiceInterface;
+use Evg09\DocDoc\Exceptions\ResponseError;
+use Evg09\DocDoc\Interfaces\Services\GeoServiceInterface;
 
 /**
  * Class GeoService
- * @package Leyhmann\DocDoc\Services
+ * @package Evg09\DocDoc\Services
  */
 class GeoService extends AbstractService implements GeoServiceInterface
 {
@@ -17,8 +17,8 @@ class GeoService extends AbstractService implements GeoServiceInterface
      *
      * @inheritDoc
      * @throws ResponseError
-     * @throws \Leyhmann\DocDoc\Exceptions\MethodIsNotSet
-     * @throws \Leyhmann\DocDoc\Exceptions\Unauthorized
+     * @throws \Evg09\DocDoc\Exceptions\MethodIsNotSet
+     * @throws \Evg09\DocDoc\Exceptions\Unauthorized
      */
     public function nearDistricts(int $districtID, int $limit = 50): array
     {
@@ -30,8 +30,8 @@ class GeoService extends AbstractService implements GeoServiceInterface
      *
      * @inheritDoc
      * @throws ResponseError
-     * @throws \Leyhmann\DocDoc\Exceptions\MethodIsNotSet
-     * @throws \Leyhmann\DocDoc\Exceptions\Unauthorized
+     * @throws \Evg09\DocDoc\Exceptions\MethodIsNotSet
+     * @throws \Evg09\DocDoc\Exceptions\Unauthorized
      */
     public function detectCity(float $lat, float $lng): array
     {
@@ -41,8 +41,8 @@ class GeoService extends AbstractService implements GeoServiceInterface
     /**
      * @inheritDoc
      * @throws ResponseError
-     * @throws \Leyhmann\DocDoc\Exceptions\MethodIsNotSet
-     * @throws \Leyhmann\DocDoc\Exceptions\Unauthorized
+     * @throws \Evg09\DocDoc\Exceptions\MethodIsNotSet
+     * @throws \Evg09\DocDoc\Exceptions\Unauthorized
      */
     public function getCities(): array
     {
@@ -52,8 +52,8 @@ class GeoService extends AbstractService implements GeoServiceInterface
     /**
      * @inheritDoc
      * @throws ResponseError
-     * @throws \Leyhmann\DocDoc\Exceptions\MethodIsNotSet
-     * @throws \Leyhmann\DocDoc\Exceptions\Unauthorized
+     * @throws \Evg09\DocDoc\Exceptions\MethodIsNotSet
+     * @throws \Evg09\DocDoc\Exceptions\Unauthorized
      */
     public function getMoscowArea(): array
     {
@@ -65,8 +65,8 @@ class GeoService extends AbstractService implements GeoServiceInterface
      *
      * @inheritDoc
      * @throws ResponseError
-     * @throws \Leyhmann\DocDoc\Exceptions\MethodIsNotSet
-     * @throws \Leyhmann\DocDoc\Exceptions\Unauthorized
+     * @throws \Evg09\DocDoc\Exceptions\MethodIsNotSet
+     * @throws \Evg09\DocDoc\Exceptions\Unauthorized
      */
     public function getDistricts(int $cityId = null, int $areaId = null): array
     {
@@ -81,8 +81,8 @@ class GeoService extends AbstractService implements GeoServiceInterface
      *
      * @inheritDoc
      * @throws ResponseError
-     * @throws \Leyhmann\DocDoc\Exceptions\MethodIsNotSet
-     * @throws \Leyhmann\DocDoc\Exceptions\Unauthorized
+     * @throws \Evg09\DocDoc\Exceptions\MethodIsNotSet
+     * @throws \Evg09\DocDoc\Exceptions\Unauthorized
      */
     public function getStreets(int $cityID): array
     {

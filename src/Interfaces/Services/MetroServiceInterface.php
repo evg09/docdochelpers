@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Leyhmann\DocDoc\Interfaces\Services;
+namespace Evg09\DocDoc\Interfaces\Services;
 
 /**
  * Interface MetroServiceInterface
- * @package Leyhmann\DocDoc\Interfaces\Services
+ * @package Evg09\DocDoc\Interfaces\Services
  */
 interface MetroServiceInterface
 {

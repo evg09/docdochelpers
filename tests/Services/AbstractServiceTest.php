@@ -1,8 +1,8 @@
 <?php
 
-namespace Leyhmann\DocDoc\Tests\Services;
+namespace Evg09\DocDoc\Tests\Services;
 
-use Leyhmann\DocDoc\Client;
+use Evg09\DocDoc\Client;
 use PHPUnit\Framework\TestCase;
 use function getenv;
 

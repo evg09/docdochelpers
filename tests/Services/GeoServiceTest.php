@@ -1,8 +1,8 @@
 <?php
 
-namespace Leyhmann\DocDoc\Tests\Services;
+namespace Evg09\DocDoc\Tests\Services;
 
-use Leyhmann\DocDoc\Services\GeoService;
+use Evg09\DocDoc\Services\GeoService;
 
 class GeoServiceTest extends AbstractServiceTest
 {
@@ -12,9 +12,9 @@ class GeoServiceTest extends AbstractServiceTest
     protected $cities;
 
     /**
-     * @throws \Leyhmann\DocDoc\Exceptions\MethodIsNotSet
-     * @throws \Leyhmann\DocDoc\Exceptions\ResponseError
-     * @throws \Leyhmann\DocDoc\Exceptions\Unauthorized
+     * @throws \Evg09\DocDoc\Exceptions\MethodIsNotSet
+     * @throws \Evg09\DocDoc\Exceptions\ResponseError
+     * @throws \Evg09\DocDoc\Exceptions\Unauthorized
      */
     public function testGetCities(): void
     {
@@ -36,9 +36,9 @@ class GeoServiceTest extends AbstractServiceTest
     }
 
     /**
-     * @throws \Leyhmann\DocDoc\Exceptions\MethodIsNotSet
-     * @throws \Leyhmann\DocDoc\Exceptions\ResponseError
-     * @throws \Leyhmann\DocDoc\Exceptions\Unauthorized
+     * @throws \Evg09\DocDoc\Exceptions\MethodIsNotSet
+     * @throws \Evg09\DocDoc\Exceptions\ResponseError
+     * @throws \Evg09\DocDoc\Exceptions\Unauthorized
      */
     public function testGetStreets(): void
     {
@@ -54,9 +54,9 @@ class GeoServiceTest extends AbstractServiceTest
     }
 
     /**
-     * @throws \Leyhmann\DocDoc\Exceptions\MethodIsNotSet
-     * @throws \Leyhmann\DocDoc\Exceptions\ResponseError
-     * @throws \Leyhmann\DocDoc\Exceptions\Unauthorized
+     * @throws \Evg09\DocDoc\Exceptions\MethodIsNotSet
+     * @throws \Evg09\DocDoc\Exceptions\ResponseError
+     * @throws \Evg09\DocDoc\Exceptions\Unauthorized
      */
     public function testGetDistricts(): void
     {
@@ -72,9 +72,9 @@ class GeoServiceTest extends AbstractServiceTest
     }
 
     /**
-     * @throws \Leyhmann\DocDoc\Exceptions\MethodIsNotSet
-     * @throws \Leyhmann\DocDoc\Exceptions\ResponseError
-     * @throws \Leyhmann\DocDoc\Exceptions\Unauthorized
+     * @throws \Evg09\DocDoc\Exceptions\MethodIsNotSet
+     * @throws \Evg09\DocDoc\Exceptions\ResponseError
+     * @throws \Evg09\DocDoc\Exceptions\Unauthorized
      */
     public function testNearDistricts(): void
     {
@@ -91,9 +91,9 @@ class GeoServiceTest extends AbstractServiceTest
     }
 
     /**
-     * @throws \Leyhmann\DocDoc\Exceptions\MethodIsNotSet
-     * @throws \Leyhmann\DocDoc\Exceptions\ResponseError
-     * @throws \Leyhmann\DocDoc\Exceptions\Unauthorized
+     * @throws \Evg09\DocDoc\Exceptions\MethodIsNotSet
+     * @throws \Evg09\DocDoc\Exceptions\ResponseError
+     * @throws \Evg09\DocDoc\Exceptions\Unauthorized
      */
     public function testDetectCity(): void
     {
@@ -104,9 +104,9 @@ class GeoServiceTest extends AbstractServiceTest
     }
 
     /**
-     * @throws \Leyhmann\DocDoc\Exceptions\MethodIsNotSet
-     * @throws \Leyhmann\DocDoc\Exceptions\ResponseError
-     * @throws \Leyhmann\DocDoc\Exceptions\Unauthorized
+     * @throws \Evg09\DocDoc\Exceptions\MethodIsNotSet
+     * @throws \Evg09\DocDoc\Exceptions\ResponseError
+     * @throws \Evg09\DocDoc\Exceptions\Unauthorized
      */
     public function testGetMoscowArea(): void
     {
@@ -123,9 +123,9 @@ class GeoServiceTest extends AbstractServiceTest
 
     /**
      * @return array
-     * @throws \Leyhmann\DocDoc\Exceptions\MethodIsNotSet
-     * @throws \Leyhmann\DocDoc\Exceptions\ResponseError
-     * @throws \Leyhmann\DocDoc\Exceptions\Unauthorized
+     * @throws \Evg09\DocDoc\Exceptions\MethodIsNotSet
+     * @throws \Evg09\DocDoc\Exceptions\ResponseError
+     * @throws \Evg09\DocDoc\Exceptions\Unauthorized
      */
     protected function getCities(): array
     {

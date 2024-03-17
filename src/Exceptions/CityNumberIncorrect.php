@@ -1,12 +1,12 @@
 <?php
 
-namespace Leyhmann\DocDoc\Exceptions;
+namespace Evg09\DocDoc\Exceptions;
 
 use Exception;
 
 /**
  * Class CityNumberIncorrect
- * @package Leyhmann\DocDoc\Exceptions
+ * @package Evg09\DocDoc\Exceptions
  */
 class CityNumberIncorrect extends Exception
 {

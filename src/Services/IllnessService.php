@@ -1,22 +1,22 @@
 <?php
 
 
-namespace Leyhmann\DocDoc\Services;
+namespace Evg09\DocDoc\Services;
 
-use Leyhmann\DocDoc\Interfaces\Services\IllnessServiceInterface;
+use Evg09\DocDoc\Interfaces\Services\IllnessServiceInterface;
 
 /**
  * Class IllnessService
- * @package Leyhmann\DocDoc\Services
+ * @package Evg09\DocDoc\Services
  */
 class IllnessService extends AbstractService implements IllnessServiceInterface
 {
     /**
      * @param int $id
      * @return array
-     * @throws \Leyhmann\DocDoc\Exceptions\MethodIsNotSet
-     * @throws \Leyhmann\DocDoc\Exceptions\ResponseError
-     * @throws \Leyhmann\DocDoc\Exceptions\Unauthorized
+     * @throws \Evg09\DocDoc\Exceptions\MethodIsNotSet
+     * @throws \Evg09\DocDoc\Exceptions\ResponseError
+     * @throws \Evg09\DocDoc\Exceptions\Unauthorized
      */
     public function info(int $id): array
     {

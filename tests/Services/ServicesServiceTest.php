@@ -1,11 +1,11 @@
 <?php
 
-namespace Leyhmann\DocDoc\Tests\Services;
+namespace Evg09\DocDoc\Tests\Services;
 
-use Leyhmann\DocDoc\Exceptions\MethodIsNotSet;
-use Leyhmann\DocDoc\Exceptions\ResponseError;
-use Leyhmann\DocDoc\Exceptions\Unauthorized;
-use Leyhmann\DocDoc\Services\ServicesService;
+use Evg09\DocDoc\Exceptions\MethodIsNotSet;
+use Evg09\DocDoc\Exceptions\ResponseError;
+use Evg09\DocDoc\Exceptions\Unauthorized;
+use Evg09\DocDoc\Services\ServicesService;
 use function count;
 
 class ServicesServiceTest extends AbstractServiceTest

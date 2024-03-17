@@ -1,12 +1,12 @@
 <?php
 
-namespace Leyhmann\DocDoc\Exceptions;
+namespace Evg09\DocDoc\Exceptions;
 
 use Exception;
 
 /**
  * Class ResponseError
- * @package Leyhmann\DocDoc\Exceptions
+ * @package Evg09\DocDoc\Exceptions
  */
 class ResponseError extends Exception
 {

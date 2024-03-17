@@ -1,10 +1,10 @@
 <?php
 
-namespace Leyhmann\DocDoc\Helpers;
+namespace Evg09\DocDoc\Helpers;
 
 /**
  * Class Headers
- * @package Leyhmann\DocDoc\Helpers
+ * @package Evg09\DocDoc\Helpers
  */
 class Headers
 {
