@@ -7,13 +7,13 @@
 Install by [composer](http://getcomposer.org/download/).
 
 ```
-composer require leyhmann/docdochelpers
+composer require evg09/docdochelpers
 ```
 
 ### Example
 
 ```php
-use Leyhmann\DocDoc\Services\DoctorsService;
+use Evg09\DocDoc\Services\DoctorsService;
 
 $client = new Client(DOCDOC_LOGIN, DOCDOC_PASSWORD);
 $doctorsService = new DoctorsService($client);
